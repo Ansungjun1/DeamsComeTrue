@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    private GameObject target;
+    public GameObject target;
     private float moveSpeed;
     private Vector3 targetPosition;
 
